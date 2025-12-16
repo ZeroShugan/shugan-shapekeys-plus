@@ -1,1 +1,69 @@
-
+{
+  "changelog": [
+    {
+      "version": "0.2.3",
+      "release_date": "2024-12-16",
+      "release_notes": "Current stable release with preset system and update notifications",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Added automatic update notification system",
+        "Integration with GitHub for version checking",
+        "Update dialog with detailed changelog display"
+      ],
+      "changes": [
+        "Improved addon stability",
+        "Enhanced user interface"
+      ],
+      "fixes": [
+        "Various bug fixes and improvements"
+      ]
+    },
+    {
+      "version": "0.2.2",
+      "release_date": "2024-06-21",
+      "release_notes": "Improvements to shape key operations and bug fixes",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Added Apply All Shape Keys Mix to Basis (Keep Shape Keys)"
+      ],
+      "changes": [
+        "Updated description: Apply Selected Shape Key to Basis (Delete Shape Key)"
+      ],
+      "fixes": [
+        "Fixed error when enable/disable add-on"
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "release_date": "2024-08-09",
+      "release_notes": "Major update with new shape key operations",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Added Apply to Basis",
+        "Added Lock/Unlock All",
+        "Added Mute/Unmute All"
+      ],
+      "changes": [
+        "Changed some logos"
+      ],
+      "fixes": []
+    }
+  ],
+  "stores": {
+    "booth": {
+      "name": "Booth",
+      "url": "https://shugan.booth.pm/",
+      "icon": "COLLECTION_COLOR_01"
+    },
+    "gumroad": {
+      "name": "Gumroad",
+      "url": "https://gumroad.com/shugan",
+      "icon": "COLLECTION_COLOR_07"
+    },
+    "blender_market": {
+      "name": "Blender Market",
+      "url": "https://blendermarket.com/creators/shugan",
+      "icon": "COLLECTION_COLOR_02"
+    }
+  }
+}
