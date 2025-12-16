@@ -1,7 +1,7 @@
 {
   "changelog": [
     {
-      "version": "0.2.3",
+      "version": "0.2.4",
       "release_date": "2024-12-16",
       "release_notes": "Current stable release with preset system and update notifications",
       "minimum_blender": "4.2.0",
