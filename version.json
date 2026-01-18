@@ -1,6 +1,30 @@
 {
   "changelog": [
     {
+      "version": "0.2.5",
+      "release_date": "2025-01-18",
+      "release_notes": "Major feature update with new operators and Blender 5.0 support",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Added Shape Key Presets system with value slider and apply all toggle",
+        "Added Copy Order operator to copy shape key order between objects",
+        "Added Invert Lock State operator",
+        "Added Invert Mute State operator",
+        "Added Invert Shape Key Vectors operator",
+        "Added Blend to Basis Selected Vertices",
+        "Added Delete Shape Keys Batch",
+        "Added Remove Zero Delta Shape Keys",
+        "Added GitHub update notification system"
+      ],
+      "changes": [
+        "Improved global toggle functionality",
+        "Updated Blend From Shape with real-time preview"
+      ],
+      "fixes": [
+        "Fixed compatibility issues with Blender 5.0"
+      ]
+    },
+    {
       "version": "0.2.4",
       "release_date": "2024-12-16",
       "release_notes": "Current stable release with preset system and update notifications",
