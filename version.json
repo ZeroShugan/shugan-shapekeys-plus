@@ -1,6 +1,20 @@
 {
   "changelog": [
     {
+      "version": "0.2.6",
+      "release_date": "2025-01-20",
+      "release_notes": "Bug fixes for duplicate and mirror shape key operators",
+      "minimum_blender": "4.2.0",
+      "new_features": [],
+      "changes": [
+        "Mirror Shape Key now sets _L and _R values to 1.0 after creation"
+      ],
+      "fixes": [
+        "Fixed Duplicate Shape Key error in Blender 5.0",
+        "Fixed Mirror Shape Key _R being 2x stronger than expected"
+      ]
+    },
+    {
       "version": "0.2.5",
       "release_date": "2025-01-18",
       "release_notes": "Major feature update with new operators and Blender 5.0 support",
