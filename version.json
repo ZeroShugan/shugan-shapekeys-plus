@@ -3,13 +3,18 @@
     {
       "version": "0.2.8",
       "release_date": "2026-03-30",
-      "release_notes": "Blender 5.1 compatibility fix",
+      "release_notes": "Blender 5.1 compatibility fix and preset improvements",
       "minimum_blender": "4.2.0",
       "new_features": [],
-      "changes": [],
+      "changes": [
+        "Preset default value is now 1.0 instead of 0.0 when adding a new preset",
+        "Renamed 'Apply All' to 'Zero Others' with clearer description",
+        "Zero Others now also zeroes shape keys not listed in the preset (e.g. newly added ones)"
+      ],
       "fixes": [
         "Fixed addon failing to load in Blender 5.1 due to removed cgitb module (Python 3.13)",
-        "Fixed Apply Shape Key Mix to Basis calling non-existent operator (wrong bl_idname)"
+        "Fixed Apply Shape Key Mix to Basis calling non-existent operator (wrong bl_idname)",
+        "Fixed Invert Shape Key Vectors doing nothing when called outside Object mode"
       ]
     },
     {
