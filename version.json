@@ -1,6 +1,35 @@
 {
   "changelog": [
     {
+      "version": "0.2.8",
+      "release_date": "2026-03-30",
+      "release_notes": "Blender 5.1 compatibility fix",
+      "minimum_blender": "4.2.0",
+      "new_features": [],
+      "changes": [],
+      "fixes": [
+        "Fixed addon failing to load in Blender 5.1 due to removed cgitb module (Python 3.13)",
+        "Fixed Apply Shape Key Mix to Basis calling non-existent operator (wrong bl_idname)"
+      ]
+    },
+    {
+      "version": "0.2.7",
+      "release_date": "2026-03-15",
+      "release_notes": "New Bake Vertex Group Masks operator with Keep Shape Key Values option",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Added Bake Vertex Group Masks operator to bake vertex group masks into shape key deltas for FBX export compatibility",
+        "Added interactive dialog with shape key list, filters, and selection tools",
+        "Added Keep Shape Key Values option to preserve value sliders after baking",
+        "Added Keep Original Shape Keys option with configurable suffixes",
+        "Added Copy Value to Baked and Keep Original Values sub-options"
+      ],
+      "changes": [
+        "Reordered menu: Bake Vertex Group Masks now appears above New Shape from Mix Pos with separator"
+      ],
+      "fixes": []
+    },
+    {
       "version": "0.2.6",
       "release_date": "2025-01-20",
       "release_notes": "Bug fixes for duplicate and mirror shape key operators",
